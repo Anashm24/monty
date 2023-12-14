@@ -59,8 +59,11 @@ Available operation codes:
 
 | Opcode | Description |
 |------------------- | --------------|
-|push   | Pushes an element to the stack. e.g (push 1 # pushes 1 into the stack)|
+|add_to_stack   | Pushes an element to the stack.|
 |pall   | Prints all the values on the stack, starting from the to of the stack.|
 |pint   | Prints the value at the top of the stack.|
 |pop    | Removes the to element of the stack. |
+|nop| doesn't do anything 
 |swap   | Swaps the top to elements of the stack.|
+|add_nodes| add two nodes.|
+|sub_nodes| substact a node from the other.|
