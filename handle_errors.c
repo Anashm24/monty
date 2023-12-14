@@ -52,6 +52,7 @@ void handle_error(int error_number, ...)
  * (6) => When the stack it empty for pint.
  * (7) => When the stack it empty for pop.
  * (8) => When stack is too short for operation.
+ * (9) => Division by zero.
  */
 void more_error(int error_number, ...)
 {
